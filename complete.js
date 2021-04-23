@@ -33,7 +33,7 @@ function main(array) {
   // multiply by -1 each digit in even position of the array without zeros
   let highSum = 0;
   let currentSum = 0;
-  fictitiusArrayMultiplyMinusOne.forEach((number) => {
+  multiplyByMinusOne.forEach((number) => {
     const sum = currentSum + number;
     currentSum = Math.max(0, sum);
     highSum = Math.max(highSum, currentSum);
