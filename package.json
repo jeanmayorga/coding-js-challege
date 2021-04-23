@@ -1,0 +1,14 @@
+{
+  "name": "tallertech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "jest:watch": "jest --watchAll",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
